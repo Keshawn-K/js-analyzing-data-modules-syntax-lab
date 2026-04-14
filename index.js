@@ -1,5 +1,5 @@
 require('datejs');
-
+// function to combine users from multiple sources into a single object
 function combineUsers(...args) {
   const combinedObject = {
     users: []
